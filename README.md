@@ -12,10 +12,9 @@ Elle utilise un modèle de Deep Learning (réseau de neurones) développé avec 
 ## Comment fonctionne le projet ?
 
 Le projet est divisé en plusieurs parties simples :
-*   **La page web (Frontend)** : Une page simple créée avec du HTML et stylisée avec Tailwind CSS.
-*   **Le serveur (Backend)** : Django récupère les données du formulaire, les prépare et les envoie au modèle.
+*   **La page web ** : Une page simple créée avec du HTML et stylisée avec CSS.
 *   **Le modèle d'IA** : Le fichier `dnn_model.keras` est chargé par Django pour faire le calcul de la prédiction.
-*   **La mise en ligne (Production)** : Le projet est hébergé sur un serveur AWS EC2 sous Debian, utilisant Gunicorn et Nginx pour rester toujours actif.
+*   **La mise en ligne (Production)** : Le projet est hébergé sur un serveur AWS EC2, utilisant Gunicorn et Nginx.
 
 ---
 
@@ -126,12 +125,3 @@ L'application a été déployée sur une instance AWS. Elle fonctionne en tâche
 ```
 
 ---
-
-### Comment mettre ce nouveau fichier sur ton GitHub ?
-
-Dans ton terminal AWS (ou local où tu gères Git), tape simplement ces trois lignes pour écraser l'ancien fichier avec celui-ci :
-
-```bash
-git add README.md
-git commit -m "Docs: Version finale simplifiée du README"
-git push origin main
