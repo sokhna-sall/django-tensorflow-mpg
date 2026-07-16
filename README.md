@@ -121,7 +121,3 @@ L'application a été déployée sur une instance AWS. Elle fonctionne en tâche
 ---
 
 **Développé par :** Sokhna Sall (MILIA1 - EPT)
-
-```
-
----
