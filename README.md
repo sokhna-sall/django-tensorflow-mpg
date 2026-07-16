@@ -17,5 +17,5 @@ Ce projet est une application web Django qui intègre un modèle de réseau de n
 
 1. **Cloner le projet** :
    ```bash
-   git clone <url_de_votre_depot>
+   git clone https://github.com/sokhna-sall/django-tensorflow-mpg.git
    cd tensorflow_django
